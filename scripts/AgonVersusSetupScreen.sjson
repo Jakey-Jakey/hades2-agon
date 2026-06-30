@@ -1,0 +1,288 @@
+{
+  AgonVersusSetupScreen = {
+    Platform = "default"
+    OpenSound = "/SFX/Menu Sounds/MirrorMenuOpen"
+    CloseSound = "/SFX/Menu Sounds/AspectMenuClose"
+    SelectionSound = "/SFX/Menu Sounds/IrisMenuToggle2"
+    GamepadCursorControl = true
+    TransitionOnTime = 0.1
+    TransitionOffTime = 0.2
+    ForceShowCursor = true
+    GamepadSelectionStyle = "VerticalCycle"
+    FreeFormSelectWrapping = true
+
+
+    Back = {
+      Justification = "Left"
+      VerticalJustification = "Top"
+      Red = 0.090
+      Green = 0.055
+      Blue = 0.157
+      Width = 1920
+      Height = 1200
+      Alpha = 0.86
+    }
+
+    AnimatedBackground = {
+      X = 960
+      Y = 430
+      Graphic = "GUI\Shell\background_confirm"
+      Justification = "Center"
+      VerticalJustification = "Center"
+    }
+
+    HeaderText = {
+      X = 960
+      Y = 268
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Width = 1100
+      Font = "P22UndergroundSCLightTitling"
+      FontSize = 36
+      TextRed = 1
+      TextGreen = 1
+      TextBlue = 1
+      TextOutlineRed = 0
+      TextOutlineGreen = 0
+      TextOutlineBlue = 0
+      OutlineThickness = 3
+      ShadowRed = 0.176
+      ShadowGreen = 0.184
+      ShadowBlue = 0.18
+      ShadowOffsetY = 2
+      ShadowAlpha = 1
+      ShadowBlur = 2
+    }
+
+    Subtitle = {
+      X = 960
+      Y = 312
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Font = "LatoItalic"
+      FontSize = 20
+      Width = 900
+      TextRed = 0.812
+      TextGreen = 0.760
+      TextBlue = 0.940
+      ShadowRed = 0
+      ShadowGreen = 0
+      ShadowBlue = 0
+      ShadowOffsetY = 2
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    StatusText = {
+      X = 960
+      Y = 728
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Font = "LatoMedium"
+      FontSize = 19
+      Width = 1000
+      TextRed = 1.0
+      TextGreen = 0.72
+      TextBlue = 0.62
+      FlashMin = 0.0
+      FlashMax = 0.8
+      FlashSpeed = 3.0
+      FlashRed = 1.0
+      FlashGreen = 0.3
+      FlashBlue = 0.2
+      ShadowRed = 0
+      ShadowGreen = 0
+      ShadowBlue = 0
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    P1DeviceButton = {
+      X = 960
+      Y = 348
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 760
+      TextAreaHeight = 48
+      Font = "P22UndergroundSCMedium"
+      FontSize = 25
+      TextRed = 0.78
+      TextGreen = 0.78
+      TextBlue = 0.78
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.05
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    P2DeviceButton = {
+      X = 960
+      Y = 410
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 760
+      TextAreaHeight = 48
+      Font = "P22UndergroundSCMedium"
+      FontSize = 25
+      TextRed = 0.78
+      TextGreen = 0.78
+      TextBlue = 0.78
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.05
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    ArenaButton = {
+      X = 960
+      Y = 472
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 760
+      TextAreaHeight = 48
+      Font = "P22UndergroundSCMedium"
+      FontSize = 25
+      TextRed = 0.78
+      TextGreen = 0.78
+      TextBlue = 0.78
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.05
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    P1WeaponButton = {
+      X = 960
+      Y = 534
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 760
+      TextAreaHeight = 48
+      Font = "P22UndergroundSCMedium"
+      FontSize = 25
+      TextRed = 0.78
+      TextGreen = 0.78
+      TextBlue = 0.78
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.05
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    P2WeaponButton = {
+      X = 960
+      Y = 596
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 760
+      TextAreaHeight = 48
+      Font = "P22UndergroundSCMedium"
+      FontSize = 25
+      TextRed = 0.78
+      TextGreen = 0.78
+      TextBlue = 0.78
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.05
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    ConfirmButton = {
+      X = 960
+      Y = 672
+      Justification = "Center"
+      VerticalJustification = "Center"
+      Graphic = "null"
+      SelectedOnAnimation = "null"
+      SelectOnMouseOver = true
+      DeselectOnMouseOff = true
+      UseTextArea = true
+      TextAreaWidth = 520
+      TextAreaHeight = 52
+      Font = "P22UndergroundSCHeavy"
+      FontSize = 30
+      TextRed = 0.96
+      TextGreen = 0.90
+      TextBlue = 0.66
+      SelectedTextRed = 0.337
+      SelectedTextGreen = 1.000
+      SelectedTextBlue = 0.714
+      TextJustification = "Center"
+      SelectedTextScale = 1.08
+      OutlineThickness = 2
+      ShadowOffsetY = 3
+      ShadowAlpha = 1
+      ShadowBlur = 0
+    }
+
+    CancelButton = {
+      Graphic = "CancelButtonFlash"
+      UnderCursorOnAnimation = "CancelButtonFlashHover"
+      UnderCursorOffAnimation = "CancelButtonFlash"
+      FreeFormSelectable = false
+      Justification = "Center"
+      VerticalJustification = "Center"
+      X = 960
+      Y = 810
+      FlashMin = 0.0
+      FlashMax = 0.5
+      FlashSpeed = 1.2
+      FlashRed = 0.6
+      FlashGreen = 0.4
+      FlashBlue = 0.0
+      Scale = 0.8
+    }
+
+  }
+}

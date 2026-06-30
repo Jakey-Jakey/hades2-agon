@@ -1,0 +1,6 @@
+[submodule "libs/hades2-engine-interface"]
+	path = libs/hades2-engine-interface
+	url = https://github.com/Hades2-coop-project/hades2-engine-interface.git
+[submodule "libs/hades2-mod-extension"]
+	path = libs/hades2-mod-extension
+	url = https://github.com/Hades2-coop-project/hades2-mod-extension.git

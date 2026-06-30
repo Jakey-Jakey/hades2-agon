@@ -1,0 +1,7 @@
+{
+	Name = "AGON"
+	Library = "AgonGame.dll"
+	Priority = 0
+	Version = "0.0.1"
+	Author = "Jakey-Jakey"
+}

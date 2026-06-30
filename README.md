@@ -1,8 +1,8 @@
-# AGON [BETA]
+# AGON [ALPHA]
 
 ## Things to watch out for
 
-This is the first public beta. 
+This is the first public alpha. 
 
 - **If the first launch or Versus entry crashes, relaunch and report it.** I think I've squashed this bug once and for all. Could come back though so if it happens you should be good to just keep trying and eventually it'll let you in if you encounter this bug. 
 - **Games just freeze on finish.** After a match ends, The game just kinda dozes off and you'll have to pause and click "undo night" or close and reopen the game.
@@ -14,9 +14,9 @@ This is the first public beta.
 
 ## What it is
 
-AGON, **Action Gaming Over Network** (embarrassing name when the beta launch is local only pvp multiplayer), The current expectation and setup is two players, one PC, one arena, best-of-five rounds. And eventually add in everything else I want.
+AGON, **Action Gaming Over Network** (embarrassing name when the alpha launch is local only pvp multiplayer), The current expectation and setup is two players, one PC, one arena, best-of-five rounds. And eventually add in everything else I want.
 
-The beta's job is to find out whether PvP Hades feels good, how much I gotta touch balencing, numbers that need tuning, and every single bug I can possibly smush with my bare hands.
+The alpha's job is to find out whether PvP Hades feels good, how much I gotta touch balencing, numbers that need tuning, and every single bug I can possibly smush with my bare hands.
 
 I will also not be mentioning any of the online stuff on Thunderstore until that stuff is live. 
 
@@ -74,7 +74,10 @@ I'm not making a feedback form. Please be reasonable and try to give good contex
 
 ## What's next?
 
-Finish the local PVP multiplayer arena mode into a somewhat polished state.
+- Finish the thunderstore CI, 
+- Make an icon, 
+- Release onto thunderstore (becomes the beta), 
+- Finish the local PVP multiplayer arena mode into a somewhat polished state
 
 ## Thanks
 
@@ -86,12 +89,14 @@ Really impressive stuff and you should play that mod!
 
 Sure, go for it.
 
+**Building:** clone the repo and double-click **`build.bat`** (needs Visual Studio with the "Desktop development with C++" workload + CMake). It fetches the submodules it needs, builds `AgonGame.dll`, and assembles the mod folder under `bin/`. To have it drop the build straight into your r2modman install, paste your plugins path into `env.cmake` when prompted — optional; building works without it. (No `--recursive` needed — `build.bat` handles submodules.)
+
 A lot of the internals are going to move around. If you want to contribute, the most useful things right now are:
 
 - Bug reports.
 - Balance feedback from real matches.
 - Art / icon / UI help
-- Fixes for weapon weirdness, match-end flow, setup jank, and other obvious beta problems.
+- Fixes for weapon weirdness, match-end flow, setup jank, and other obvious alpha problems.
 - Figuring out things that are not on my roadmap just yet.
    - Per player Boons
    - Per player Keepsakes

@@ -1,0 +1,10 @@
+{
+  "name": "AGON",
+  "version_number": "0.0.1",
+  "website_url": "https://github.com/Jakey-Jakey/hades2-agon",
+  "description": "A PVP multiplayer mod for Hades 2",
+  "dependencies": [
+    "Hell2Modding-Hell2Modding-1.0.104",
+    "TheNormalnijMods-Hades2ModExtension-0.2.1"
+  ]
+}
